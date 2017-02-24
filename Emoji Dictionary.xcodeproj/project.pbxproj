@@ -12,6 +12,7 @@
 		0006503B1E5FA16C007E7F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000650391E5FA16C007E7F8B /* Main.storyboard */; };
 		0006503D1E5FA16C007E7F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0006503C1E5FA16C007E7F8B /* Assets.xcassets */; };
 		000650401E5FA16C007E7F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0006503E1E5FA16C007E7F8B /* LaunchScreen.storyboard */; };
+		000650481E5FB623007E7F8B /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000650471E5FB623007E7F8B /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0006503C1E5FA16C007E7F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0006503F1E5FA16C007E7F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		000650411E5FA16C007E7F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000650471E5FB623007E7F8B /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				000650351E5FA16C007E7F8B /* AppDelegate.swift */,
 				000650371E5FA16C007E7F8B /* ViewController.swift */,
+				000650471E5FB623007E7F8B /* DefinitionViewController.swift */,
 				000650391E5FA16C007E7F8B /* Main.storyboard */,
 				0006503C1E5FA16C007E7F8B /* Assets.xcassets */,
 				0006503E1E5FA16C007E7F8B /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				000650381E5FA16C007E7F8B /* ViewController.swift in Sources */,
+				000650481E5FB623007E7F8B /* DefinitionViewController.swift in Sources */,
 				000650361E5FA16C007E7F8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
